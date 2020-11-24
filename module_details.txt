@@ -1,0 +1,73 @@
+
+Project Title:Online BuyUsedBooks
+
+Module Details:
+
+1.)employee:
+This model provides a provision for maintaining the employee database
+apart from the maintenance of the book database.
+also, handle the maintenance of the website.
+
+2.)customer:
+Customer ragistration:-Any customer can register on the website using the registration page.
+Customer Login:-This is a login form, where the customer can log in to the system.
+change password: customers can change their password.
+Book details: Customer can see the book details.
+cart: customer can add their books to the cart module.
+order: customer will be adding the order into the order module.
+payment:-customer  do the payment of their shopping book.
+shipping: customer will be shipping their order.
+Customer Logout:-This is a logout form, where the customer can logout from the system.
+
+
+3.)claim:
+each customer and shopowner should have an account to access all the functionalities of the website.
+customers and shopowner can sign in using the login page and sign out using the logout page.
+All the customers and shopowner sessions will be saved in the database.
+  
+4.)book:
+This model regarding books i.e.bookid,book name,book author,price..etc. are provided for the customers for their convenience. As this process is computerized it is easy for the owner to update the list where this process would have been difficult if he had maintained the record manually.
+Adding new books
+edit the existing books
+view details of the books
+Listing of all books
+
+5.)BookStore:
+This module provides the functionalities related to their shop.
+The store owner will log in, logout from the websites.
+BookStore owner can manage the whole information about the shop i.e.
+books, stock, edit the price of books,....etc.
+the owner can also manage the delivery process of the customer order.
+
+6.)shopping cart:
+The customer can manage a shopping cart which will include all the books he selected. 
+The customer can edit, delete, and update his shopping cart. A 
+final shopping cart is a summary which includes all the items the user selected and 
+the final total cost.
+
+
+7.)order:
+The main objective of this module is to provide all the functionality related to order. It tracks all the information and details of the orders.
+Adding new order
+Edit the existing order.
+View details of orders.
+Listing of all orders.
+
+8.)payment:
+This module provides the functionalities of payment after ordering the books.
+customer selects the mode of payment.(credit card,debit card,cash on delivery..etc)
+insert the card details.
+proceed the payment.
+payment success and send messages to the customer.
+
+9.)shipment:
+customer adding their address details for delivery of the order.
+order details
+shipment status.
+vendors details.
+date of delivery.
+
+10.)Vendors:
+Vendors module provide  functionalities to  the bookstore for placing the order of the customer 
+on their mentioning address.
+each vendors having their specific bookstore for taking the delivery process
